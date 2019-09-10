@@ -1,0 +1,3 @@
+./<executable file> <input filename> <no. of pages> <no. of cores> > <output filename>
+gcc -o executable -fopenmp pagerank.c
+./executable dat1_4039.txt 4039 8 > out1.txt
